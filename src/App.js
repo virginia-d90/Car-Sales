@@ -39,7 +39,7 @@ const App = props => {
 };
 
 const mapStateToProps = state => {
- console.log(state.car)
+ console.log(state.allPowerfulReducer.car)
   return{
     car:state.allPowerfulReducer.car,
     additionalFeatures: state.allPowerfulReducer.additionalFeatures,
